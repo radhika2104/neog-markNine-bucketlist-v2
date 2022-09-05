@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap");
+:root {
+  --primary-color: #ef4444;
+  --secondary-color: #f59e0b;
+  --tertiery-color: #fffbeb;
+  background-color: var(--tertiery-color);
+}
+
+.App {
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+}
+
+.heading-list {
+  color: var(--primary-color);
+}
+nav {
+  color: var(--secondary-color);
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: x-large;
+  margin: 0rem;
+}
+h2 {
+  color: var(--primary-color);
+  padding: 0rem 1rem;
+}
+
+.ul-themes {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 1rem;
+  padding-inline-start: 0px;
+}
+
+.list-themes {
+  list-style: none;
+  display: inline;
+  padding: 1rem;
+}
+
+.list-themes button {
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--secondary-color);
+  color: var(--primary-color);
+  background-color: var(--tertiery-color);
+  font-weight: 500;
+  font-size: larger;
+  cursor: pointer;
+}
+hr {
+  border: 0.5px solid var(--secondary-color);
+  max-width: 900px;
+  margin-bottom: 2rem;
+}
+
+.li-thumbnails {
+  list-style: none;
+  display: inline;
+}
+
+.li-dest-image {
+  height: 300px;
+  width: 350px;
+  margin: 0rem;
+}
+.li-dest-name {
+  font-family: inherit;
+  font-size: x-large;
+  font-weight: 600;
+  margin: 0rem;
+}
+.li-dest-rating {
+  font-family: inherit;
+  font-size: large;
+  margin: 0.2rem 0rem 2rem 0rem;
+}
+
+footer {
+  color: var(--primary-color);
+  margin-top: 3rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+.container-main {
+  margin: auto;
+}
+@media (min-width: 600px) {
+  .container-main {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+  }
+  .span-li-thumbnails {
+    flex: 33.33%;
+    padding: 0rem 1.2rem 0rem;
+    margin: auto;
+  }
+  .ul-thumbnails {
+    display: flex;
+    padding-inline-start: 0px;
+    list-style: none;
+    white-space: nowrap;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    color: var(--secondary-color);
+    padding: 0.2rem;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0rem;
+  }
+  .ul-themes {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 1.5rem 0rem;
+    padding-inline-start: 0px;
+  }
+  .list-themes {
+    list-style: none;
+    display: inline;
+    padding: 0.4rem;
+  }
+  .span-li-thumbnails {
+    margin: auto;
+  }
+  .ul-thumbnails {
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+}
