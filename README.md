@@ -8,7 +8,7 @@ This is an app which recommends user my favourite places to travel based on diff
 
 - Lists categories for the chosen genres for your recommendation app
 - When the user clicks on one category, displays a list of items in that category with its image, description and ratings
-- Bonus Features: app is responsive
+
 
 ## Learnings
 
